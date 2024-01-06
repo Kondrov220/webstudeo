@@ -204,6 +204,7 @@ body {
 
 .team-item {
   background-color: var(--title-color);
+  padding-bottom: 30px;
 }
 
 .team-photo {
@@ -228,7 +229,6 @@ body {
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.48px;
-  margin-bottom: 30px;
 }
 
 .footer {
@@ -280,12 +280,12 @@ body {
 }
 
 .portfolio {
-  padding-top: 94px ;
   padding-bottom: 94px;
 }
 
-.portfolio-links {
+.links {
   padding-bottom: 50px;
+  padding-top: 94px ;
 }
 
 .portfolio-items{
@@ -334,8 +334,13 @@ body {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
-  margin-top: 20px;
-  margin-left: 24px;
+
+}
+
+.portfolio-box {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-info {
@@ -344,13 +349,11 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.87;
 letter-spacing: 0.48px;
-margin-bottom: 20px;
-margin-left: 24px;
 }
 
 .container {
   width: 1200px; 
-  outline: solid red;
+  /* outline: solid red; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
