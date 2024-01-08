@@ -321,6 +321,7 @@ body {
 .portfolio-item {
   width: 370px;
   height: 404px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-photo {
